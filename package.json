@@ -1,6 +1,6 @@
 {
   "name": "preact-classless-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility method to create preact components without using class keyword",
   "main": "index.js",
   "dependencies": {
