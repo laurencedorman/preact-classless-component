@@ -1,0 +1,47 @@
+{
+  "name": "preact-classless-component",
+  "version": "1.0.0",
+  "description": "A utility method to create preact components without using class keyword",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "preact": "^4.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.7",
+    "babel-register": "^6.7.2",
+    "chai": "^3.5.0",
+    "jscs": "^3.0.3",
+    "mocha": "^2.4.5"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-object-assign"
+    ]
+  },
+  "scripts": {
+    "postinstall": "npm run build-commonjs",
+    "build-commonjs": "./node_modules/.bin/babel index.js --out-dir commonjs",
+    "test": "./node_modules/.bin/jscs index.js && ./node_modules/.bin/mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ld0rman/preact-classless-component.git"
+  },
+  "keywords": [
+    "preact",
+    "vdom",
+    "react",
+    "babel"
+  ],
+  "author": "ld0rman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ld0rman/preact-classless-component/issues"
+  },
+  "homepage": "https://github.com/ld0rman/preact-classless-component#readme"
+}
