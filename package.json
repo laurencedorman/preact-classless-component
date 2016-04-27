@@ -24,7 +24,6 @@
     ]
   },
   "scripts": {
-    "postinstall": "npm run build-commonjs",
     "build-commonjs": "./node_modules/.bin/babel index.js --out-dir commonjs",
     "test": "./node_modules/.bin/jscs index.js && ./node_modules/.bin/mocha --compilers js:babel-register"
   },
