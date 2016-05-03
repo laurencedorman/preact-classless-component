@@ -22,7 +22,7 @@ import createComponent from 'preact-classless-component');
 
 /* CommonJS */
 
-const createComponent = require('preact-classless-component/commonjs');
+const createComponent = require('preact-classless-component');
 
 const Component = createComponent({
 	render(props, state) {
