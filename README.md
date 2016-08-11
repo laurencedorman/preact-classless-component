@@ -18,7 +18,7 @@ $ npm install --save preact-classless-component
 ```js
 /* ES6 Modules */
 
-import createComponent from 'preact-classless-component');
+import createComponent from 'preact-classless-component';
 
 /* CommonJS */
 
