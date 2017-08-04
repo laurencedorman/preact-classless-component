@@ -4,7 +4,7 @@
   "description": "A utility method to create preact components without using class keyword",
   "main": "./dist/index.js",
   "dependencies": {
-    "preact": "^6.4.0"
+    "preact": "^8.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.7.7",
