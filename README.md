@@ -1,7 +1,7 @@
 
 # Preact Classless Component 
 [![npm](https://img.shields.io/npm/v/preact-classless-component.svg)](http://npm.im/preact-classless-component)
-[![travis](https://travis-ci.org/ld0rman/preact-classless-component.svg?branch=master)](https://travis-ci.org/ld0rman/preact-classless-component)
+[![travis](https://travis-ci.org/laurencedorman/preact-classless-component.svg?branch=master)](https://travis-ci.org/ld0rman/preact-classless-component)
 [![Dependency Status](https://david-dm.org/ld0rman/preact-classless-component.svg?style=flat)](https://david-dm.org/ld0rman/preact-classless-component)
 [![devDependency Status](https://david-dm.org/ld0rman/preact-classless-component/dev-status.svg?style=flat)](https://david-dm.org/ld0rman/preact-classless-component#info=devDependencies)
 
