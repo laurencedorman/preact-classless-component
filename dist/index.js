@@ -30,3 +30,5 @@ exports.default = function (obj) {
 };
 
 var _preact = require('preact');
+
+module.exports = exports['default'];
