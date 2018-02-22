@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ld0rman/preact-classless-component.git"
+    "url": "git+https://github.com/laurencedorman/preact-classless-component.git"
   },
   "keywords": [
     "preact",
@@ -40,10 +40,10 @@
     "react",
     "babel"
   ],
-  "author": "ld0rman",
+  "author": "laurencedorman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ld0rman/preact-classless-component/issues"
+    "url": "https://github.com/laurencedorman/preact-classless-component/issues"
   },
-  "homepage": "https://github.com/ld0rman/preact-classless-component#readme"
+  "homepage": "https://github.com/laurencedorman/preact-classless-component#readme"
 }
