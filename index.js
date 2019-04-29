@@ -1,4 +1,4 @@
-import { Component } from 'preact';
+import { Component } from "preact";
 
 export default function(obj) {
   function preactComponent() {
@@ -6,7 +6,7 @@ export default function(obj) {
 
     // auto-bind methods to the component
     for (let i in obj) {
-      if (i !== 'render' && typeof obj[i] === 'function') {
+      if (i !== "render" && typeof obj[i] === "function") {
         this[i] = obj[i].bind(this);
       }
     }
@@ -17,7 +17,8 @@ export default function(obj) {
   }
 
   preactComponent.prototype = Object.assign(
-    Object.create(Component.prototype), obj
+    Object.create(Component.prototype),
+    obj
   );
 
   preactComponent.prototype.constructor = preactComponent;

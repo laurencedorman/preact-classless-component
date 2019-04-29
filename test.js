@@ -1,26 +1,22 @@
-import chai from 'chai';
+import { h } from "preact";
+import render from "preact-render-to-string";
 
-const expect = chai.expect;
+import createComponent from "./index.js";
 
-import { h } from 'preact';
-import render from 'preact-render-to-string';
-
-import createComponent from './index.js';
-
-describe('createComponent', () => {
-  it('Should be a function', () => {
-    expect(createComponent).to.be.a('function');
+describe("createComponent", () => {
+  it("Should be a function", () => {
+    expect(typeof createComponent).toBe("function");
   });
 
-  it('Should create a component', () => {
+  it("Should create a component", () => {
     const Test = createComponent({
       render() {
-        return h('div', null, 'Hello world');
+        return h("div", null, "Hello world");
       }
     });
 
     const output = render(h(Test));
 
-    expect(output).to.equal('<div>Hello world</div>');
+    expect(output).toEqual("<div>Hello world</div>");
   });
 });
