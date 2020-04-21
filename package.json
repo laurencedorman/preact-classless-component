@@ -12,10 +12,17 @@
     "@babel/plugin-transform-object-assign": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/register": "^7.0.0",
+    "bundlesize": "^0.18.0",
     "jest": "^24.7.1",
     "preact-render-to-string": "^3.2.1",
     "prettier": "^1.17.0"
   },
+  "bundlesize": [
+    {
+      "path": "./dist/**.js",
+      "maxSize": "10 kB"
+    }
+  ],
   "babel": {
     "presets": [
       "@babel/preset-env"
@@ -26,6 +33,7 @@
   },
   "scripts": {
     "build": "babel index.js --out-dir dist",
+    "bundlesize": "bundlesize",
     "test": "jest test.js"
   },
   "repository": {
