@@ -34,7 +34,7 @@
   "scripts": {
     "build": "babel index.js --out-dir dist",
     "bundlesize": "bundlesize",
-    "test": "jest test.js"
+    "test": "jest test.js && npm run bundlesize"
   },
   "repository": {
     "type": "git",
